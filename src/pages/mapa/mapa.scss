@@ -1,0 +1,21 @@
+page-mapa {
+    ion-content{
+        background: rgb(229, 227, 223);
+        #map_canvas_p{
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        .button-marker{
+          background-color: #4CAF50; 
+          border: none;color: white;
+          padding: 7px 15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 8px;
+          border-radius: 6px;
+        }
+      }
+}

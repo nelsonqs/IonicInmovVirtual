@@ -1,0 +1,13 @@
+<!-- Generated template for the MisAvisosListRowComponent component -->
+
+<ion-item>
+  <ion-avatar item-start>
+    <img [src]="aviso.imagen"  *ngIf="aviso.imagen"/>
+    <img src="assets/imgs/test.png"  *ngIf="!aviso.imagen"/>
+  </ion-avatar>
+  <h2>{{aviso.titulo}}</h2>
+  <h4>{{aviso.descripcion}}</h4>
+  <p>{{aviso.fecPublicacion}}</p>
+  <button ion-button clear item-end (click)="modificarAviso(aviso)"><ion-icon name="create"></ion-icon></button>
+  <button ion-button clear item-end (click)="showConfirm(aviso)"><ion-icon name="close"></ion-icon></button>
+</ion-item>
